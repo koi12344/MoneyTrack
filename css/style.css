@@ -1,0 +1,60 @@
+.stat-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 4px 0;
+    cursor: pointer;
+}
+.stat-row:hover {
+    background: #f5f5f0;
+}
+.budget-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 4px 0;
+}
+.goal-history {
+    font-size: 12px;
+    color: #999;
+    margin: 2px 0 8px 68px;
+    list-style: none;
+}
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 280px;
+    gap: 4px;
+    margin: 8px 0;
+}
+.cal-cell {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #555;
+}
+.cal-cell.done {
+    background: rgba(122, 158, 126, 0.28);
+}
+.cal-empty {
+    visibility: hidden;
+}
+.stat-label {
+    width: 60px;
+    flex-shrink: 0;
+}
+.stat-bar-wrap {
+    flex: 1;
+    height: 14px;
+    background: #eee;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.stat-bar {
+    height: 100%;
+    background: #7a9e7e;
+    border-radius: 7px;
+}
